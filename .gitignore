@@ -1,0 +1,147 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# iOS/macOS build files
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Flutter.podspec
+/ios/Runner/GeneratedPluginRegistrant.*
+/macos/Flutter/GeneratedPluginRegistrant.swift
+
+# Web build files (ma NON /web/ stesso)
+# /web/ cartella deve rimanere versionata
+
+# Windows build files (ma NON /windows/ stesso)
+# /windows/ cartella deve rimanere versionata
+
+# Linux build files (ma NON /linux/ stesso) 
+# /linux/ cartella deve rimanere versionata
+
+# Windows build files
+/windows/flutter/generated_plugin_registrant.cc
+/windows/flutter/generated_plugin_registrant.h
+
+# Linux build files
+/linux/flutter/generated_plugin_registrant.cc
+/linux/flutter/generated_plugin_registrant.h
+
+# Coverage
+coverage/
+
+# Test related
+test/.test_coverage.dart
+
+# Hive database files
+*.hive
+*.lock
+
+# Generated files
+*.freezed.dart
+*.g.dart
+*.gr.dart
+*.chopper.dart
+*.mocks.dart
+coverage.lcov
+
+# Localization
+/lib/generated/
+/lib/l10n/
+
+# Firebase
+/android/app/google-services.json
+/ios/Runner/GoogleService-Info.plist
+/ios/firebase_app_id_file.json
+/macos/Runner/GoogleService-Info.plist
+/macos/firebase_app_id_file.json
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Sensitive configuration files
+/android/key.properties
+/android/app/upload-keystore.jks
+/ios/Runner/Info.plist.backup
+
+# Analysis
+.fvm/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+logs/
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Flutter Version Management
+.fvm/
+
+# Dart dependency overrides
+dependency_overrides.yaml
+
+# Flutter integration test
+integration_test/.test_coverage.dart
+
+.github/
